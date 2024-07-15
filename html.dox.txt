@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore The World</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav role="navigation">
+            <ul>
+                <li role="menuitem"><a href="#about">About</a></li>
+                <li role="menuitem"><a href="#explore">Explore</a></li>
+                <li role="menuitem"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <video id="bgVideo" autoplay loop muted>
+            <source src="background.mp4" type="video/mp4"/>
+        </video>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="overlay">
+                <h1>Explore The World</h1>
+                <p>Discover new horizons</p>
+                <button class="cta">Get Started</button>
+            </div>
+        </section>
+
+        <section class="articles">
+            <h2>Latest Articles</h2>
+            <article id="article-1">
+                <h2>Article 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+                <p class="article-paragraph" id="article-1-paragraph">The relationship between India and Russia has been complicated by the ongoing war in Ukraine, pushing Russia closer to India’s rival, China.</p>
+                <button class="toggle-paragraph">Toggle paragraph</button>
+            </article>
+            <article id="article-2">
+                <h2>Article 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+                <p class="article-paragraph">This is a sample paragraph for Article 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+                <button class="toggle-paragraph">Toggle paragraph</button>
+            </article>
+            <article id="article-3">
+                <h2>Article 3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+                <p class="article-paragraph">This is a sample paragraph for Article 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+                <button class="toggle-paragraph">Toggle paragraph</button>
+            </article>
+        </section>
+
+        <aside class="sidebar">
+            <h2>Popular Articles</h2>
+            <ul>
+                <li><a href="#article-1">Article-1</a></li>
+                <li><a href="#article-2">Article -2</a></li>
+                <li><a href="#article-4">Article -3</a></li>
+            </ul>
+            
+            <h2>Search</h2>
+            <input type="search" placeholder="Search...">
+            <h2>Social Media</h2>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Explore The World. All rights reserved.</p>
+    </footer>
+</body>
+</html>\
